@@ -38,9 +38,9 @@
             <div class="border border-gray-300 px-4 py-2">Population: <?= $row['population'] ?></div>
             <div class="border border-gray-300 px-4 py-2">Language: <?= $row['langue'] ?></div>
             <div class="flex justify-between mt-2">
-                <a href="editpays.php"?id=<?= $row['id_Pays'] ?> 
+                <a href="editpays.php"
                    class="bg-yellow-500 text-white px-3 py-1 rounded-md hover:bg-yellow-600">Edit</a>
-                <a href=""?id=<?= $row['id_Pays'] ?> 
+                   <a href="delete.php?id=<?= $row['id_Pays'] ?> "
                    class="bg-red-500 text-white px-3 py-1 rounded-md hover:bg-red-600">Delete</a>
             </div>
         </div>

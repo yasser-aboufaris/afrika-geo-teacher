@@ -27,7 +27,6 @@
             </div>
              <a href="index.php">
             <div class="text-center">
-
                 <input type="submit" value="Submit" class="w-full py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200">
             </div></a>
         </form>

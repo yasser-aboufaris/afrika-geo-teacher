@@ -16,7 +16,7 @@
                 <li class="font-bold text flex text-3xl hide ">
                     <div class="text-yellow-500">GEO</div><span class="font-light">AFRIKA</span>
                 </li>
-                <li> <button class="  p-2 rounded-lg hover:scale-110" id="ShowFrom"> ADD CONTRY </button>
+                <li> <button class="  p-2 rounded-lg hover:scale-110" id="ShowFrom"><a href="addContry.php"> ADD CONTRY </a></button>
                 </li>
                 <li> <button class="  p-2 rounded-lg hover:scale-110" id="ShowFrom"> SHOW CONTRIES</button></li>
             </ul>
@@ -38,9 +38,9 @@
             <div class="border border-gray-300 px-4 py-2">Population: <?= $row['population'] ?></div>
             <div class="border border-gray-300 px-4 py-2">Language: <?= $row['langue'] ?></div>
             <div class="flex justify-between mt-2">
-                <a href="editpays.php?id=<?= $row['id_Pays'] ?>" 
+                <a href="editpays.php"?id=<?= $row['id_Pays'] ?> 
                    class="bg-yellow-500 text-white px-3 py-1 rounded-md hover:bg-yellow-600">Edit</a>
-                <a href="deletepays.php?id=<?= $row['id_Pays'] ?>" 
+                <a href=""?id=<?= $row['id_Pays'] ?> 
                    class="bg-red-500 text-white px-3 py-1 rounded-md hover:bg-red-600">Delete</a>
             </div>
         </div>
